@@ -1,4 +1,4 @@
-package baralo.lambda;
+package com.davidof.lambda;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -7,9 +7,9 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import baralo.genericos.Alumno;
-import baralo.genericos.IPersona;
-import baralo.genericos.Persona;
+import com.davidof.genericos.Alumno;
+import com.davidof.genericos.IPersona;
+import com.davidof.genericos.Persona;
 
 public class MapApp {
 	

@@ -1,4 +1,4 @@
-package baralo.patrones;
+package com.davidof.patrones;
 
 public class Moto extends Vehiculo {
 

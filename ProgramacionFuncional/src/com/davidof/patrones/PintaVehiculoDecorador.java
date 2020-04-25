@@ -1,4 +1,4 @@
-package baralo.patrones;
+package com.davidof.patrones;
 
 public abstract class PintaVehiculoDecorador implements IPinta{
 

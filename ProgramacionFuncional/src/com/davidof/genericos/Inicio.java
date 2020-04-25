@@ -1,4 +1,4 @@
-package baralo.genericos;
+package com.davidof.genericos;
 
 import java.util.ArrayList;
 import java.util.Comparator;

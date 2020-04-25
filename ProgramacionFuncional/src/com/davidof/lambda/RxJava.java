@@ -1,10 +1,11 @@
-package baralo.lambda;
+package com.davidof.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import baralo.genericos.Alumno;
-import baralo.genericos.Persona;
+import com.davidof.genericos.Alumno;
+import com.davidof.genericos.Persona;
+
 import io.reactivex.Observable;
 
 public class RxJava {

@@ -1,4 +1,4 @@
-package baralo.genericos;
+package com.davidof.genericos;
 
 public interface IPinta {
 

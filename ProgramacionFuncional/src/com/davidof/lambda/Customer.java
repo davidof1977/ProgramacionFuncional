@@ -1,4 +1,4 @@
-package baralo.lambda;
+package com.davidof.lambda;
 
 import java.time.LocalDate;
 

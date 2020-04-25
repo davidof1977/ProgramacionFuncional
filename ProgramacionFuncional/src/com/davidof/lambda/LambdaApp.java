@@ -1,12 +1,12 @@
-package baralo.lambda;
+package com.davidof.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import baralo.genericos.Alumno;
-import baralo.genericos.IPersona;
-import baralo.genericos.Persona;
-import baralo.genericos.Profesor;
+import com.davidof.genericos.Alumno;
+import com.davidof.genericos.IPersona;
+import com.davidof.genericos.Persona;
+import com.davidof.genericos.Profesor;
 
 public class LambdaApp {
 	

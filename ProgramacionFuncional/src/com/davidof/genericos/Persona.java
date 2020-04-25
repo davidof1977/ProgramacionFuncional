@@ -1,4 +1,4 @@
-package baralo.genericos;
+package com.davidof.genericos;
 
 public abstract class Persona implements IPinta, Comparable<Persona>, IPersona{
 

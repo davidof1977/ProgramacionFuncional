@@ -1,4 +1,4 @@
-package baralo.patrones;
+package com.davidof.patrones;
 
 public class Asiento implements Cloneable{
 
