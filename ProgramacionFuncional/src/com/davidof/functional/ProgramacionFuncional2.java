@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import static com.davidof.functional.Customer.Genero.*;
 
 public class ProgramacionFuncional2 {
 
@@ -15,11 +16,11 @@ public class ProgramacionFuncional2 {
 
 		DateTimeFormatter patron = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 		Customer cliente = new Customer("David", "david@hotmail.com", "91234567", 
-				LocalDate.parse("18-07-1977", patron));
+				LocalDate.parse("18-07-1977", patron), Masculino);
 		Customer cliente2 = new Customer("Mario", "Mario@hotmail.com", "9122222", 
-				LocalDate.parse("14-01-1980", patron));
+				LocalDate.parse("14-01-1980", patron),Masculino);
 		Customer cliente3 = new Customer("Daniel", "dani@hotmail.com", "9000000", 
-				LocalDate.parse("10-03-1960", patron));
+				LocalDate.parse("10-03-1960", patron),Masculino);
 		List<Customer> clientes = new ArrayList<>(Arrays.asList(cliente,cliente2,cliente3));
 
 		List<Customer> listClientes = clientes.stream().sorted().collect(Collectors.toList());
