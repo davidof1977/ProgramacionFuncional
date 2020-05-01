@@ -1,7 +1,6 @@
 package com.davidof.functional;
 
-import static com.davidof.functional.Customer.Genero.Femenino;
-import static com.davidof.functional.Customer.Genero.Masculino;
+import static com.davidof.functional.pojos.Customer.Genero.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -13,7 +12,9 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.davidof.functional.Customer.Genero;
+import com.davidof.functional.pojos.Customer;
+import com.davidof.functional.pojos.Order;
+import com.davidof.functional.pojos.Customer.Genero;
 
 public class Streams {
 	public static void main(String[] args) {
@@ -27,10 +28,10 @@ public class Streams {
 				.forEach(System.out::println);
 				
 		//Map
-		clientes.stream()
-				.map(c -> c.getNombre())
-				.collect(Collectors.toList())
-				.forEach(System.out::println);
+		List<List<Order>> nombres = clientes.stream()
+				.map(c -> c.getOrders())
+				.collect(Collectors.toList());
+		System.out.println(nombres);
 		
 		//FlatMap y reduce
 		Optional<Double> suma = clientes.stream()

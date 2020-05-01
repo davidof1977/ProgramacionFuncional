@@ -1,4 +1,4 @@
-package com.davidof.functional;
+package com.davidof.functional.pojos;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

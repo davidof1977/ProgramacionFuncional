@@ -2,8 +2,9 @@ package com.davidof.functional;
 
 import java.time.LocalDate;
 
-import com.davidof.functional.Customer.Genero;
 import com.davidof.functional.CustomerCombinatorValidator.ResultState;
+import com.davidof.functional.pojos.Customer;
+import com.davidof.functional.pojos.Customer.Genero;
 
 public class CustomerApp {
 

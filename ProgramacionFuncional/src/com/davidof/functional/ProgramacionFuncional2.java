@@ -1,5 +1,7 @@
 package com.davidof.functional;
 
+import static com.davidof.functional.pojos.Customer.Genero.*;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -8,7 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import static com.davidof.functional.Customer.Genero.*;
+
+import com.davidof.functional.pojos.Customer;
 
 public class ProgramacionFuncional2 {
 

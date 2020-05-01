@@ -1,4 +1,4 @@
-package com.davidof.functional;
+package com.davidof.functional.pojos;
 
 public class Order {
 

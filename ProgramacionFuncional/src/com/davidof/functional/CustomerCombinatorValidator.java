@@ -10,6 +10,7 @@ import java.time.Period;
 import java.util.function.Function;
 
 import com.davidof.functional.CustomerCombinatorValidator.ResultState;
+import com.davidof.functional.pojos.Customer;
 
 
 
